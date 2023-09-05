@@ -1,0 +1,87 @@
+/* main.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: justify;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2, h3 {
+    margin-top: 1rem;
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
