@@ -56,6 +56,16 @@ img {
     margin: 1rem auto;
 }
 
+#Education {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Jobs {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
