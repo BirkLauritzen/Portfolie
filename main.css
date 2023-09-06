@@ -1,4 +1,7 @@
 /* main.css */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -95,4 +98,3 @@ footer p {
     text-align: center;
     margin-top: 1rem;
 }
-
